@@ -1,3 +1,5 @@
+let g:fern#scheme#file#mapping#copynode#disable_default_mappings = get(g:, 'fern#scheme#file#mapping#fern#scheme#file#mapping#search#disable_default_mappings', 0)
+
 function! fern#scheme#file#mapping#copynode#init(disable_default_mappings) abort
   nnoremap <buffer><silent> <Plug>(fern-action-copynode-label) :<C-u>call <SID>call('copylabel')<CR>
   nnoremap <buffer><silent> <Plug>(fern-action-copynode-path) :<C-u>call <SID>call('copypath')<CR>
