@@ -2,7 +2,7 @@
 
 [![fern plugin](https://img.shields.io/badge/🌿%20fern-plugin-yellowgreen)](https://github.com/lambdalisue/fern.vim)
 
-[fern.vim](https://github.com/lambdalisue/fern.vim) plugin to copy the selected node's name/path into system clipboard.
+[fern.vim](https://github.com/lambdalisue/fern.vim) plugin to copy the selected node's name/path into the system clipboard.
 
 
 ## Usage (default mapping)
